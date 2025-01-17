@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg,#010758,#490d61);
+}
+select{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 30%;
+    background: #403d84;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    margin-top: 5rem;
+}
+span{
+    color: #b93567;
+}
+button{
+    min-width: 130px;
+    min-height: 35px;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #b93567;
+    margin-left: 20px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+textarea{
+    width: 40%;
+    height: 40vh;
+    font-size: 20px;
+    background: #403d84;
+    border-radius: 10px;
+}
+button , select{
+    margin-top: 2rem;
+}
+@media (max-width: 767px) {
+    textarea{
+        width: 70%;
+        margin-left: 0;
+    }
+    select{
+        width: 60%;
+    }
+}
